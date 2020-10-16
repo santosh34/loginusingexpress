@@ -7,11 +7,14 @@ const PORT = process.env.PORT || 3000;
 
 
 
+//assest
+app.use( express.static('public'))
+
 app.get('/',function(req,res){
-    res.send('hello from server js ')
+    res.render('home')
 })
 
-//set Template engines
+//set Template engines setup
 app.use(expressLayout)
 app.set('views',path.join(__dirname,'/resources/views'))
 app.set('view engine','ejs')

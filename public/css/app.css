@@ -1,0 +1,45 @@
+nav li a:hover {
+    color: red
+}
+.icon {
+    
+    height: 50px;
+    border-radius: 50%;
+   
+  }
+  .logo{
+    height: 50px;
+    border-radius: 50%;
+
+  }
+.hero{
+    background-color:#f0f0f5
+}
+.pizza{
+    height: 50%;
+    background-color:#f0f0f5;
+    padding: 0;
+    border-radius: 100%;
+    background-color:#f0f0f5;
+    object-fit: cover;
+
+  }
+  .allpiza{
+    height: 150px;
+    border-radius: 50%;
+     /* remove extra space below image */
+  }
+  .add-to-cart{
+    border : 1px solid red;
+    color:red;
+    border-radius: 20px;
+    width: 100px;
+  
+    background-color: white;
+ 
+}
+.size{
+  background:#f0f0f5;
+  margin: 5px;
+ 
+}
