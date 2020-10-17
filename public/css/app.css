@@ -38,8 +38,31 @@ nav li a:hover {
     background-color: white;
  
 }
+.add-to-cart:hover{
+  background:black
+  
+ 
+
+}
 .size{
   background:#f0f0f5;
   margin: 5px;
  
+}
+.btorder{
+  background:red
+  
+
+}
+.btorder:hover{
+  background:black
+  
+
+}
+.login{
+  background:#f0f0f5;
+  height:100%;
+}
+form{
+
 }
