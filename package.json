@@ -4,12 +4,26 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
     "ejs-locals": "^1.0.2",
     "ejs-mate": "^3.0.0",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
-    "init": "^0.1.2"
+    "express-session": "^1.17.1",
+    "express-validator": "^3.1.1",
+    "flash": "^1.1.0",
+    "init": "^0.1.2",
+    "mongoose": "^5.10.9",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "tailwindcss": "^1.9.5"
   },
   "devDependencies": {
     "nodemon": "^2.0.5"
